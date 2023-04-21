@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: #EDF2EC;
+    height: 134px;
+}
+
+.logonav {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.logo {
+    height: 134px;
+    line-height: 134px;
+    border: 1px solid black;
+}
+
+.logo table {
+    margin-left: 114px;
+}
+
+.nav {
+    line-height: 134px;
+    border: 1px solid black;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+}
