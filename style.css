@@ -91,11 +91,12 @@ li a {
 
 .welcomeSection p {
     margin-top: 42px;
+    margin-bottom: 48px;
     font-weight: 400;
     font-size: 20px;
     line-height: 35px;
     color: #636060;
-}
+    }
 
 .welcomeSection a {
     font-weight: 400;
@@ -106,4 +107,80 @@ li a {
     border-radius: 10px;
     width: 158.65px;
     height: 44px;
+    padding: 12px;
+}
+
+.welcomeSection a:hover {
+    background-color: #E06733;
+    color: white;
+}
+
+.aboutsection {
+    display: flex;
+    width: 1440px;
+    margin: auto;
+}
+
+.abouttext h2 {
+    font-family: 'Inika';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    height: 102px;
+    width: 463px;
+    margin-left: 109px;
+    margin-top: 150px;
+}
+
+.abouttext span {
+    color: #E06733;
+}
+
+.abouttext p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+    margin-top: 40px;
+    margin-left: 109px;
+    width: 605px;
+    height: 208px;
+}
+
+.aboutimg {
+    margin-top: 82px;
+    margin-left: 153px;
+}
+
+#service {
+    background-color: #EDF2EC;
+    height: 1300px;
+    margin: auto;
+}
+
+.service {
+    width: 1440px;
+    margin: auto;
+}
+
+.service h2 {
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 109px;
+    width: 306px;
+    height: 94px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+
+.service a {
+    display: inline-block;
+    text-decoration: none;
 }
