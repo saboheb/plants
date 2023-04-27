@@ -162,12 +162,12 @@ li a {
 }
 
 .service {
+    display: flex;
     width: 1440px;
     margin: auto;
 }
 
 .service h2 {
-    display: inline-block;
     margin-top: 35px;
     margin-left: 109px;
     width: 306px;
@@ -180,7 +180,32 @@ li a {
     color: #499A18;
 }
 
-.service a {
-    display: inline-block;
-    text-decoration: none;
+.servicebtn {
+    margin-left: 148px;
+    margin-top: 64px;
 }
+
+.service a {
+    /*display: inline-block;*/
+    text-decoration: none;
+    color: #E06733;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    width: 161px;
+    height: 50px;
+    margin-left: 38px;
+    margin-top: 54px;
+    padding: 12px 40px;
+ }
+
+ .service-grid {
+    display: grid;
+    width: 1440px;
+margin: auto;
+
+ }
