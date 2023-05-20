@@ -5,6 +5,8 @@
 header {
     background-color: #EDF2EC;
     height: 134px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 4px;
 }
 
 .logonav {
@@ -12,29 +14,460 @@ header {
     justify-content: space-between;
     width: 1440px;
     margin: auto;
-    border: 1px solid black;
+    font-family: 'Inika', serif;
+    font-size: 16px;
+    color: #010201;
 }
 
 .logo {
     height: 134px;
     line-height: 134px;
-    border: 1px solid black;
 }
 
 .logo table {
     margin-left: 114px;
 }
 
+.home {
+    color: #E06733;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 1px black;
+}
+
 .nav {
     line-height: 134px;
-    border: 1px solid black;
 }
 
 ul {
     list-style-type: none;
-    overflow: hidden;
+
 }
 
 li {
     display: inline;
 }
+
+li a {
+    text-decoration: none;
+    padding: 44px;
+    color: #010201;
+}
+
+#welcome {
+    background-color: #EDF2EC;
+    height: 532px;
+    margin: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 14px;
+}
+
+.welcome {
+    display: flex;
+    width: 1440px;
+    margin: auto;
+}
+
+.welcome img {
+    margin-left: 109px;
+}
+
+.welcomeSection {
+    margin-top: 66px;
+    margin-left: 214px;
+    width: 558.87px;
+    font-family: 'Inter', sans-serif;
+}
+
+.welcomeSection h1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #717171;
+}
+
+.welcomeSection span {
+    color: #499A18;
+}
+
+.welcomeSection p {
+    margin-top: 42px;
+    margin-bottom: 48px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+    }
+
+.welcomeSection a {
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    width: 158.65px;
+    height: 44px;
+    padding: 12px;
+}
+
+.welcomeSection a:hover {
+    background-color: #E06733;
+    color: white;
+}
+
+.aboutsection {
+    display: flex;
+    width: 1440px;
+    margin: auto;
+}
+
+.abouttext h2 {
+    font-family: 'Inika';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    height: 102px;
+    width: 463px;
+    margin-left: 109px;
+    margin-top: 150px;
+}
+
+.abouttext span {
+    color: #E06733;
+}
+
+.abouttext p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+    margin-top: 40px;
+    margin-left: 109px;
+    width: 605px;
+    height: 208px;
+}
+
+.aboutimg {
+    margin-top: 82px;
+    margin-left: 153px;
+}
+
+#service {
+    background-color: #EDF2EC;
+    height: 1300px;
+    margin: auto;
+}
+
+.service {
+    display: flex;
+    width: 1440px;
+    margin: auto;
+    margin-bottom: 97px;
+}
+
+.service h2 {
+    margin-top: 35px;
+    margin-left: 109px;
+    width: 306px;
+    height: 94px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+
+.servicebtn {
+    margin-left: 148px;
+    margin-top: 64px;
+}
+
+.service a {
+    text-decoration: none;
+    color: #E06733;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    width: 161px;
+    height: 50px;
+    margin-left: 38px;
+    margin-top: 54px;
+    padding: 12px 40px;
+ }
+
+ .service a:hover {
+    background-color: #E06733;
+    color: white;
+ }
+
+ .service-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 1222px;
+    margin: auto;
+    column-gap: 116px;
+    row-gap: 55px;
+ }
+
+ .grid-item {
+    text-align: center;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+ }
+
+ .grid-item h3 {
+    color: #E06733;
+    margin: auto;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+ .grid-item p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+    margin-bottom: 36px;
+ }
+
+ #price {
+    width: 1440px;
+    height: 568px;
+    margin: auto;
+ }
+
+ .pricesWrapper {
+    width: 1222px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .wrapper {
+    width: 332px;
+    height: 282px;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    text-align: center;
+ }
+
+ .acor-container .acor-body {
+    display: none;
+    width: 250px;
+    height: 0;
+    border-radius: 0 0 20px 20px;
+    color: rgba(0, 0, 0, 0);
+    background-color: #D6E7D2;
+    box-sizing: border-box;
+    transition: color 0.5s, padding 0.5s;
+    font-family: Inter; 
+    font-size: 16px;
+}
+
+.priceitem {
+    text-align: left;
+    width: 164px;
+    margin-top: 0;
+    padding-top: 0 auto;
+    border-top: 1px solid #AEA1A1;
+}
+
+.priceitem span {
+    color: #E06733;
+}
+
+.acor-container .acor-body p {
+    margin: auto;
+    padding-top: 6px;
+    color: #717171;
+    text-align: start;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 10px;
+}
+
+.acor-container .acor-body .dollar {
+    color: black;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.priceitem button {
+    width: 86px;
+    height: 25px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 0;
+    border: none;
+    color: #717171;
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.acor-container label {
+    display: inline-block;
+    cursor: pointer;
+    background-color: #EDF2EC;
+    display: block;
+    /*padding: 15px 20px;*/
+    width: 250px;
+    height: 50px;
+    color: black;
+    font-weight: 700;
+    /*box-sizing: border-box;*/
+    z-index: 100;
+    font-family: Inter;
+    font-size: 20px;
+    margin: 34px auto 0 auto;
+    transition: color .35s;
+    line-height: 50px;
+    border-radius: 20px;
+}
+
+.acor-container input{
+    display: none;
+}
+
+.acor-container input:checked + label {
+    background-color: #D6E7D2;
+    border-radius: 20px 20px 0 0;
+}
+
+.acor-container input:checked + label:before {
+    transition: transform .35s;
+    transform: rotate(180deg);
+}
+
+.acor-container input:checked + label + .acor-body {
+    height: auto;
+    margin-top: -5px;
+    color: #000;
+    padding: 20px 30px 10px;
+    display: inline-block;
+}
+
+.pricesWrapper h2 {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.textCallUs h2 {
+    width: 452px;
+    text-align: right;
+}
+
+.textCallUs span {
+    color:#499A18;
+}
+
+.textCallUs a {
+    display: block;
+    text-decoration: none;
+    border: 1px solid #E06733;
+    text-align: right;
+    font-family: inika;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 12px 34px 12px 34px;
+    color: #E06733;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.textCallUs a:hover {
+    background-color: #E06733;
+    color: white;
+}
+
+
+
+.leafcontact img {
+    display: inline-block;
+    text-align: end;
+    margin-top: 200px;
+}
+
+.textCallUs table {
+    margin-left: 282px;
+    text-align: end;
+}
+
+#contacts {
+    background-color: #EDF2EC;
+    height: 550px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    margin: auto;
+}
+
+.contacts img {
+    margin-left: 109px;
+    margin-top: 53px;
+}
+
+.contacts h2 {
+    font-family: Inika;
+    font-size: 40px;
+    font-weight: 700;
+    color: #499A18;
+    margin-top: 60px;
+}
+
+.acc-contackts {
+    width: 450px;
+    height: 50px;
+}
+
+.acc-contackts input {
+    display: none;
+}
+
+.acc-contackts label {
+    display: block;
+    background-color: #D6E7D2;
+    color: #717171;
+    font-family: Inter;
+    font-size: 20px;
+    width: 450px;
+    height: 50px;
+    margin-top: 148px;
+}
+
+.drop-menu {
+    display: none;
+}
+
+.acc-contackts label:hover +.drop-menu {
+    display: inline-block;
+}
+
+.drop-menu button {
+    
+}
+
+
+
+
